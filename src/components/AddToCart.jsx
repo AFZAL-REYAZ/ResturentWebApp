@@ -14,7 +14,7 @@ const handledelete=(data)=>{
 };
 useEffect(()=>{
   setCost(selector.reduce((total, item) => total + item.price, 0));
-});
+},[handledelete]);
 const buyHandle=()=>{
   navigate("/login");
 }

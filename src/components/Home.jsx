@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../layouts/Button'
 import Dishes from './Dishes'
 import About from './About'
 import Menu from './Menu'
