@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../layouts/Button'
 import aboutImage from '../assets/dish1.jpg'
 const About = () => {
   return (

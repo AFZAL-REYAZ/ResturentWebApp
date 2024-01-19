@@ -8,7 +8,7 @@ const Login = () => {
   const handleLogin = () => {
     const signUpemail=localStorage.getItem("email");
     const signUppassword=localStorage.getItem("password");
-    if(email==signUpemail && password==signUppassword){
+    if(email===signUpemail && password===signUppassword){
         alert("Sorry Pament method is not working I am working on it")
     }else{
         alert("Email or Password wrong");

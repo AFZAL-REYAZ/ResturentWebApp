@@ -53,7 +53,7 @@ const Navbar = () => {
                 <Link to="/addtocart" spy={true} duration={500} className='hover:text-amber-500 transition-all cursor-pointer'>
                 <div className="flex items-center justify-center">
                     <BsCart2 className='text-amber-500 hover:text-amber-700 transition-all cursor-pointer right-0' size={30}/>
-                    <h className="relative bottom-3">{selector.length}</h>
+                    <p className="relative bottom-3">{selector.length}</p>
                 </div>
                    
                 </Link>
