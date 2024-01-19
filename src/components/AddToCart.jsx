@@ -4,6 +4,8 @@ import DishesCard from '../layouts/DishesCard';
 import { deleteItem } from '../store/CartSlice';
 import Button from '../layouts/Button';
 import { useNavigate } from 'react-router-dom';
+
+
 const AddToCart = () => {
 const navigate = useNavigate();
 const dispatch=useDispatch();
@@ -12,9 +14,10 @@ const selector = useSelector((state)=>state.bag.cart);
 const handledelete=(data)=>{
   dispatch(deleteItem(data));
 };
-useEffect(()=>{
+useEffect(() => {
   setCost(selector.reduce((total, item) => total + item.price, 0));
-},[handledelete]);
+}, [selector]);
+
 const buyHandle=()=>{
   navigate("/login");
 }
