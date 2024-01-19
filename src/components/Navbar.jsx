@@ -22,7 +22,7 @@ const Navbar = () => {
       <div>
         <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
             <div className='flex flex-row items-center cursor-pointer'>
-                <Link to="/"><h1 className='text-5xl font-bold text-amber-500'>FiCa</h1></Link>
+                <Link to="/"><h1 className='text-5xl font-bold text-amber-500'>FoodiCa</h1></Link>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link to="/" spy={true} duration={500} className='hover: text-amber-500 transition-all cursor-pointer'>Home</Link>
