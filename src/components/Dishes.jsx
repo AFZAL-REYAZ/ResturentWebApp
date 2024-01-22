@@ -12,7 +12,7 @@ const Dishes = () => {
   return (
     <div className="min-h-screen bg-white lg:px-32 px-5 ">
       <h1 className="text-4xl font-semibold text-center  mt-10">Our Dishes</h1>
-      <div className="flex flex-wrap gap-8 justify-around ml-24 lg:flex min-w-96" >
+      <div className="flex flex-wrap gap-8 justify-around  lg:flex min-w-96" >
         <Link to="/filteredpage/fastfood" className='lg:w-1/5 m-5'>
           <DishesCard btnname="Click Here" img={dish1} title="Fast Food" price="₹ 99" />
         </Link>
